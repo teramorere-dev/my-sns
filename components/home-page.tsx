@@ -1,3 +1,7 @@
 export function HomePage() {
-  return <h1>SNS Home</h1>;
+  return (
+    <div>
+      <p>ホーム画面</p>
+    </div>
+  );
 }
