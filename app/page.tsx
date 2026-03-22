@@ -1,5 +1,5 @@
-import { MainLayout } from "@/components/main-layout"
-import { HomePage } from "@/components/home-page"
+import { MainLayout } from "../components/main-layout"
+import { HomePage } from "../components/home-page"
 
 export default function Page() {
   return (
