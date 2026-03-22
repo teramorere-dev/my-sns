@@ -1,3 +1,10 @@
-export default function Home() {
-  return <h1>Hello</h1>;
+import { MainLayout } from "@/components/main-layout"
+import { HomePage } from "@/components/home-page"
+
+export default function Page() {
+  return (
+    <MainLayout>
+      <HomePage />
+    </MainLayout>
+  )
 }
